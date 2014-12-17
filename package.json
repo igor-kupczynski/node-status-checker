@@ -1,0 +1,14 @@
+{
+  "name": "status-checker",
+  "version": "0.0.1",
+  "description": "A simple package to check the status of a remote service",
+  "main": "status-checker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "Eclipse Public License",
+  "dependencies": {
+    "request": "^2.51.0"
+  }
+}
