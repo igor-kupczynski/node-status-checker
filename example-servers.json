@@ -1,0 +1,4 @@
+{
+  "http://localhost:9200": 200,
+  "http://localhost:9201": 401
+}
