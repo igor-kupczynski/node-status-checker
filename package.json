@@ -9,6 +9,7 @@
   "author": "",
   "license": "Eclipse Public License",
   "dependencies": {
+    "optimist": "^0.6.1",
     "request": "^2.51.0"
   }
 }

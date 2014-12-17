@@ -26,10 +26,14 @@ var callAddresses = function() {
   }
 };
 
-var servers = {
-  "http://localhost:9200": 200,
-  "http://localhost:9201": 401
-};
+
+
+var argv = require('optimist')
+  .usage('Usage: $0 -s [server-list.json]')
+  .demand(['s'])
+  .argv;
+
+var servers = require("./" + argv.s);
 
 var addresses = Object.keys(servers);
 
